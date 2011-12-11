@@ -13,6 +13,8 @@
 // HelloWorldLayer
 @interface HelloWorldLayer : CCLayer
 {
+    UITextField *userInput_;
+    CCLabelTTF *outputLabel;
 }
 
 // returns a CCScene that contains the HelloWorldLayer as the only child

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F5C63401494AC56000CA620 /* SimpleNLProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C633F1494AC56000CA620 /* SimpleNLProcessor.m */; };
 		1FA6C6D8148FAEAA001CDAD2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA6C6D7148FAEAA001CDAD2 /* QuartzCore.framework */; };
 		1FA6C6DA148FAEAA001CDAD2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA6C6D9148FAEAA001CDAD2 /* OpenGLES.framework */; };
 		1FA6C6DC148FAEAA001CDAD2 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA6C6DB148FAEAA001CDAD2 /* OpenAL.framework */; };
@@ -125,6 +126,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F5C633E1494AC56000CA620 /* SimpleNLProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleNLProcessor.h; sourceTree = "<group>"; };
+		1F5C633F1494AC56000CA620 /* SimpleNLProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleNLProcessor.m; sourceTree = "<group>"; };
 		1FA6C6D3148FAEAA001CDAD2 /* Situation Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Situation Puzzle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA6C6D7148FAEAA001CDAD2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1FA6C6D9148FAEAA001CDAD2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -381,6 +384,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F5C633D1494AB75000CA620 /* NLP */ = {
+			isa = PBXGroup;
+			children = (
+				1F5C633E1494AC56000CA620 /* SimpleNLProcessor.h */,
+				1F5C633F1494AC56000CA620 /* SimpleNLProcessor.m */,
+			);
+			name = NLP;
+			sourceTree = "<group>";
+		};
 		1FA6C6C8148FAEA9001CDAD2 = {
 			isa = PBXGroup;
 			children = (
@@ -416,6 +428,7 @@
 		1FA6C6E7148FAEAA001CDAD2 /* Situation Puzzle */ = {
 			isa = PBXGroup;
 			children = (
+				1F5C633D1494AB75000CA620 /* NLP */,
 				1FA6C839148FAEAB001CDAD2 /* AppDelegate.h */,
 				1FA6C83A148FAEAB001CDAD2 /* AppDelegate.m */,
 				1FA6C83C148FAEAB001CDAD2 /* RootViewController.h */,
@@ -925,6 +938,7 @@
 				1FA6C83B148FAEAB001CDAD2 /* AppDelegate.m in Sources */,
 				1FA6C83E148FAEAB001CDAD2 /* RootViewController.m in Sources */,
 				1FA6C841148FAEAB001CDAD2 /* HelloWorldLayer.m in Sources */,
+				1F5C63401494AC56000CA620 /* SimpleNLProcessor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

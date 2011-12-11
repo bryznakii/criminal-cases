@@ -9,6 +9,7 @@
 
 // Import the interfaces
 #import "HelloWorldLayer.h"
+#import "SimpleNLProcessor.h"
 
 // HelloWorldLayer implementation
 @implementation HelloWorldLayer
@@ -36,18 +37,33 @@
 	if( (self=[super init])) {
 		
 		// create and initialize a Label
-		CCLabelTTF *label = [CCLabelTTF labelWithString:@"Hello World" fontName:@"Marker Felt" fontSize:64];
+		outputLabel = [CCLabelTTF labelWithString:@"Hello World" fontName:@"Marker Felt" fontSize:64];
 
 		// ask director the the window size
 		CGSize size = [[CCDirector sharedDirector] winSize];
 	
 		// position the label on the center of the screen
-		label.position =  ccp( size.width /2 , size.height/2 );
+		outputLabel.position =  ccp( size.width /2 , size.height/2 );
 		
 		// add the label as a child to this Layer
-		[self addChild: label];
+		[self addChild: outputLabel];
+        
+        userInput_ = [[UITextField alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 300.0f, 30.0f)];
+        userInput_.backgroundColor = [UIColor whiteColor];
+        [[[CCDirector sharedDirector] openGLView] addSubview:userInput_];
+        
+        self.isTouchEnabled = YES;
 	}
 	return self;
+}
+
+-(void) ccTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    NSLog(@"touched");
+    NSString *inputString = [userInput_ text];
+    NSLog(@"%@", inputString);
+    NSString *ret = [SimpleNLProcessor getUserInput: inputString];
+    [outputLabel setString: ret];
 }
 
 // on "dealloc" you need to release all your retained objects
