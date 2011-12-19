@@ -122,7 +122,6 @@
 		1FA6C838148FAEAB001CDAD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6C837148FAEAB001CDAD2 /* main.m */; };
 		1FA6C83B148FAEAB001CDAD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6C83A148FAEAB001CDAD2 /* AppDelegate.m */; };
 		1FA6C83E148FAEAB001CDAD2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6C83D148FAEAB001CDAD2 /* RootViewController.m */; };
-		1FA6C841148FAEAB001CDAD2 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6C840148FAEAB001CDAD2 /* HelloWorldLayer.m */; };
 		78019CF7149E8A3D00E453E2 /* SPMainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 78019CF6149E8A3D00E453E2 /* SPMainScene.m */; };
 		78019CFB149EC59300E453E2 /* SPPrefaceScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 78019CFA149EC59300E453E2 /* SPPrefaceScene.m */; };
 		78019CFF149ECAC200E453E2 /* SPJeffTestSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78019CFE149ECAC200E453E2 /* SPJeffTestSceneController.m */; };
@@ -380,8 +379,6 @@
 		1FA6C83A148FAEAB001CDAD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1FA6C83C148FAEAB001CDAD2 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		1FA6C83D148FAEAB001CDAD2 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		1FA6C83F148FAEAB001CDAD2 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		1FA6C840148FAEAB001CDAD2 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		1FA6C842148FAEAB001CDAD2 /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		78019CF5149E8A3D00E453E2 /* SPMainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMainScene.h; sourceTree = "<group>"; };
 		78019CF6149E8A3D00E453E2 /* SPMainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMainScene.m; sourceTree = "<group>"; };
@@ -395,7 +392,7 @@
 		78019D05149ECB3500E453E2 /* SPCocoTestSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCocoTestSceneController.m; sourceTree = "<group>"; };
 		78019D07149ECB4700E453E2 /* SPCocoTestScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCocoTestScene.h; sourceTree = "<group>"; };
 		78019D08149ECB4700E453E2 /* SPCocoTestScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCocoTestScene.m; sourceTree = "<group>"; };
-		78019D0E149ECBC400E453E2 /* SPGelfordTestSceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = SPGelfordTestSceneController.h; sourceTree = "<group>"; };
+		78019D0E149ECBC400E453E2 /* SPGelfordTestSceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGelfordTestSceneController.h; sourceTree = "<group>"; };
 		78019D0F149ECBC400E453E2 /* SPGelfordTestSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGelfordTestSceneController.m; sourceTree = "<group>"; };
 		78019D11149ECBD900E453E2 /* SPGelfordTestScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGelfordTestScene.h; sourceTree = "<group>"; };
 		78019D12149ECBD900E453E2 /* SPGelfordTestScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGelfordTestScene.m; sourceTree = "<group>"; };
@@ -494,8 +491,6 @@
 				1FA6C83A148FAEAB001CDAD2 /* AppDelegate.m */,
 				1FA6C83C148FAEAB001CDAD2 /* RootViewController.h */,
 				1FA6C83D148FAEAB001CDAD2 /* RootViewController.m */,
-				1FA6C83F148FAEAB001CDAD2 /* HelloWorldLayer.h */,
-				1FA6C840148FAEAB001CDAD2 /* HelloWorldLayer.m */,
 				1FA6C842148FAEAB001CDAD2 /* GameConfig.h */,
 				1FA6C6E8148FAEAA001CDAD2 /* Resources */,
 				1FA6C6FC148FAEAA001CDAD2 /* libs */,
@@ -1126,7 +1121,6 @@
 				1FA6C838148FAEAB001CDAD2 /* main.m in Sources */,
 				1FA6C83B148FAEAB001CDAD2 /* AppDelegate.m in Sources */,
 				1FA6C83E148FAEAB001CDAD2 /* RootViewController.m in Sources */,
-				1FA6C841148FAEAB001CDAD2 /* HelloWorldLayer.m in Sources */,
 				1F5C63401494AC56000CA620 /* SimpleNLProcessor.m in Sources */,
 				782D983B149B136A00D01361 /* SPMainSceneController.m in Sources */,
 				782D983E149B139400D01361 /* SPSettingSceneController.m in Sources */,
