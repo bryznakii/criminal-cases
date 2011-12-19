@@ -50,7 +50,7 @@
         
         userInput_ = [[UITextField alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 300.0f, 30.0f)];
         userInput_.backgroundColor = [UIColor whiteColor];
-        [[[CCDirector sharedDirector] openGLView] addSubview:userInput_];
+        //[[[CCDirector sharedDirector] openGLView] addSubview:userInput_];
         
         self.isTouchEnabled = YES;
 	}

@@ -43,3 +43,9 @@
 
 #endif // __GAME_CONFIG_H
 
+#define GELFORD_TEST_SCENE @"gelfordtestscene"
+#define COCO_TEST_SCENE @"cocotestscene"
+#define PREFACE_SCENE @"prefacescene"
+#define JEFF_TEST_SCENE @"jefftestscene"
+#define MAIN_GAME_SCENE @"maingamescene"
+#define RUN_FIRST_MAIN_GAME_SCENE @"firstmaingamescene"

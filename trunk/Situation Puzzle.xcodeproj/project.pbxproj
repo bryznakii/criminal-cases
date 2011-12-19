@@ -123,6 +123,26 @@
 		1FA6C83B148FAEAB001CDAD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6C83A148FAEAB001CDAD2 /* AppDelegate.m */; };
 		1FA6C83E148FAEAB001CDAD2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6C83D148FAEAB001CDAD2 /* RootViewController.m */; };
 		1FA6C841148FAEAB001CDAD2 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6C840148FAEAB001CDAD2 /* HelloWorldLayer.m */; };
+		78019CF7149E8A3D00E453E2 /* SPMainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 78019CF6149E8A3D00E453E2 /* SPMainScene.m */; };
+		78019CFB149EC59300E453E2 /* SPPrefaceScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 78019CFA149EC59300E453E2 /* SPPrefaceScene.m */; };
+		78019CFF149ECAC200E453E2 /* SPJeffTestSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78019CFE149ECAC200E453E2 /* SPJeffTestSceneController.m */; };
+		78019D02149ECAD400E453E2 /* SPJeffTestScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 78019D01149ECAD400E453E2 /* SPJeffTestScene.m */; };
+		78019D06149ECB3500E453E2 /* SPCocoTestSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78019D05149ECB3500E453E2 /* SPCocoTestSceneController.m */; };
+		78019D09149ECB4700E453E2 /* SPCocoTestScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 78019D08149ECB4700E453E2 /* SPCocoTestScene.m */; };
+		78019D10149ECBC400E453E2 /* SPGelfordTestSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78019D0F149ECBC400E453E2 /* SPGelfordTestSceneController.m */; };
+		78019D13149ECBD900E453E2 /* SPGelfordTestScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 78019D12149ECBD900E453E2 /* SPGelfordTestScene.m */; };
+		78019D17149ECC4F00E453E2 /* SPSettingScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 78019D16149ECC4F00E453E2 /* SPSettingScene.m */; };
+		78019D1C149ECDE800E453E2 /* SPResultTestScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 78019D1B149ECDE800E453E2 /* SPResultTestScene.m */; };
+		78019D20149ECE1700E453E2 /* SPGameEndScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 78019D1F149ECE1700E453E2 /* SPGameEndScene.m */; };
+		78019D23149ECEC200E453E2 /* SPGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 78019D22149ECEC200E453E2 /* SPGameScene.m */; };
+		782D983B149B136A00D01361 /* SPMainSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782D983A149B136A00D01361 /* SPMainSceneController.m */; };
+		782D983E149B139400D01361 /* SPSettingSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782D983D149B139400D01361 /* SPSettingSceneController.m */; };
+		782D9841149B13DF00D01361 /* SPPrefaceSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782D9840149B13DF00D01361 /* SPPrefaceSceneController.m */; };
+		782D9845149B1A4A00D01361 /* SPGameSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782D9844149B1A4A00D01361 /* SPGameSceneController.m */; };
+		782D9848149B1A7600D01361 /* SPResultTestSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782D9847149B1A7600D01361 /* SPResultTestSceneController.m */; };
+		782D984B149B1ABF00D01361 /* SPGameEndSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782D984A149B1ABF00D01361 /* SPGameEndSceneController.m */; };
+		782D984E149B1ADA00D01361 /* SPBasicSceneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782D984D149B1ADA00D01361 /* SPBasicSceneController.m */; };
+		782D9851149B1BBE00D01361 /* SPBasicScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 782D9850149B1BBE00D01361 /* SPBasicScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -363,6 +383,46 @@
 		1FA6C83F148FAEAB001CDAD2 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
 		1FA6C840148FAEAB001CDAD2 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		1FA6C842148FAEAB001CDAD2 /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
+		78019CF5149E8A3D00E453E2 /* SPMainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMainScene.h; sourceTree = "<group>"; };
+		78019CF6149E8A3D00E453E2 /* SPMainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMainScene.m; sourceTree = "<group>"; };
+		78019CF9149EC59300E453E2 /* SPPrefaceScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPrefaceScene.h; sourceTree = "<group>"; };
+		78019CFA149EC59300E453E2 /* SPPrefaceScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPrefaceScene.m; sourceTree = "<group>"; };
+		78019CFD149ECAC200E453E2 /* SPJeffTestSceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPJeffTestSceneController.h; sourceTree = "<group>"; };
+		78019CFE149ECAC200E453E2 /* SPJeffTestSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPJeffTestSceneController.m; sourceTree = "<group>"; };
+		78019D00149ECAD400E453E2 /* SPJeffTestScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPJeffTestScene.h; sourceTree = "<group>"; };
+		78019D01149ECAD400E453E2 /* SPJeffTestScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPJeffTestScene.m; sourceTree = "<group>"; };
+		78019D04149ECB3500E453E2 /* SPCocoTestSceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCocoTestSceneController.h; sourceTree = "<group>"; };
+		78019D05149ECB3500E453E2 /* SPCocoTestSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCocoTestSceneController.m; sourceTree = "<group>"; };
+		78019D07149ECB4700E453E2 /* SPCocoTestScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCocoTestScene.h; sourceTree = "<group>"; };
+		78019D08149ECB4700E453E2 /* SPCocoTestScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCocoTestScene.m; sourceTree = "<group>"; };
+		78019D0E149ECBC400E453E2 /* SPGelfordTestSceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = SPGelfordTestSceneController.h; sourceTree = "<group>"; };
+		78019D0F149ECBC400E453E2 /* SPGelfordTestSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGelfordTestSceneController.m; sourceTree = "<group>"; };
+		78019D11149ECBD900E453E2 /* SPGelfordTestScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGelfordTestScene.h; sourceTree = "<group>"; };
+		78019D12149ECBD900E453E2 /* SPGelfordTestScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGelfordTestScene.m; sourceTree = "<group>"; };
+		78019D15149ECC4F00E453E2 /* SPSettingScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSettingScene.h; sourceTree = "<group>"; };
+		78019D16149ECC4F00E453E2 /* SPSettingScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSettingScene.m; sourceTree = "<group>"; };
+		78019D1A149ECDE800E453E2 /* SPResultTestScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPResultTestScene.h; sourceTree = "<group>"; };
+		78019D1B149ECDE800E453E2 /* SPResultTestScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPResultTestScene.m; sourceTree = "<group>"; };
+		78019D1E149ECE1700E453E2 /* SPGameEndScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGameEndScene.h; sourceTree = "<group>"; };
+		78019D1F149ECE1700E453E2 /* SPGameEndScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGameEndScene.m; sourceTree = "<group>"; };
+		78019D21149ECEC200E453E2 /* SPGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGameScene.h; sourceTree = "<group>"; };
+		78019D22149ECEC200E453E2 /* SPGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGameScene.m; sourceTree = "<group>"; };
+		782D9839149B136A00D01361 /* SPMainSceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMainSceneController.h; sourceTree = "<group>"; };
+		782D983A149B136A00D01361 /* SPMainSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMainSceneController.m; sourceTree = "<group>"; };
+		782D983C149B139400D01361 /* SPSettingSceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSettingSceneController.h; sourceTree = "<group>"; };
+		782D983D149B139400D01361 /* SPSettingSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSettingSceneController.m; sourceTree = "<group>"; };
+		782D983F149B13DF00D01361 /* SPPrefaceSceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPrefaceSceneController.h; sourceTree = "<group>"; };
+		782D9840149B13DF00D01361 /* SPPrefaceSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPrefaceSceneController.m; sourceTree = "<group>"; };
+		782D9843149B1A4A00D01361 /* SPGameSceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGameSceneController.h; sourceTree = "<group>"; };
+		782D9844149B1A4A00D01361 /* SPGameSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGameSceneController.m; sourceTree = "<group>"; };
+		782D9846149B1A7600D01361 /* SPResultTestSceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPResultTestSceneController.h; sourceTree = "<group>"; };
+		782D9847149B1A7600D01361 /* SPResultTestSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPResultTestSceneController.m; sourceTree = "<group>"; };
+		782D9849149B1ABF00D01361 /* SPGameEndSceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGameEndSceneController.h; sourceTree = "<group>"; };
+		782D984A149B1ABF00D01361 /* SPGameEndSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGameEndSceneController.m; sourceTree = "<group>"; };
+		782D984C149B1ADA00D01361 /* SPBasicSceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBasicSceneController.h; sourceTree = "<group>"; };
+		782D984D149B1ADA00D01361 /* SPBasicSceneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBasicSceneController.m; sourceTree = "<group>"; };
+		782D984F149B1BBD00D01361 /* SPBasicScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBasicScene.h; sourceTree = "<group>"; };
+		782D9850149B1BBE00D01361 /* SPBasicScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBasicScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -396,7 +456,7 @@
 		1FA6C6C8148FAEA9001CDAD2 = {
 			isa = PBXGroup;
 			children = (
-				1FA6C6E7148FAEAA001CDAD2 /* Situation Puzzle */,
+				1FA6C6E7148FAEAA001CDAD2 /* Classes */,
 				1FA6C6D6148FAEAA001CDAD2 /* Frameworks */,
 				1FA6C6D4148FAEAA001CDAD2 /* Products */,
 			);
@@ -425,9 +485,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1FA6C6E7148FAEAA001CDAD2 /* Situation Puzzle */ = {
+		1FA6C6E7148FAEAA001CDAD2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				782D9837149B10D000D01361 /* SceneController */,
 				1F5C633D1494AB75000CA620 /* NLP */,
 				1FA6C839148FAEAB001CDAD2 /* AppDelegate.h */,
 				1FA6C83A148FAEAB001CDAD2 /* AppDelegate.m */,
@@ -440,6 +501,7 @@
 				1FA6C6FC148FAEAA001CDAD2 /* libs */,
 				1FA6C835148FAEAB001CDAD2 /* Supporting Files */,
 			);
+			name = Classes;
 			path = "Situation Puzzle";
 			sourceTree = "<group>";
 		};
@@ -771,6 +833,133 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		78019CF3149E89F700E453E2 /* MainScene */ = {
+			isa = PBXGroup;
+			children = (
+				782D9839149B136A00D01361 /* SPMainSceneController.h */,
+				782D983A149B136A00D01361 /* SPMainSceneController.m */,
+				78019CF5149E8A3D00E453E2 /* SPMainScene.h */,
+				78019CF6149E8A3D00E453E2 /* SPMainScene.m */,
+			);
+			name = MainScene;
+			sourceTree = "<group>";
+		};
+		78019CF8149EC55900E453E2 /* PrefaceScene */ = {
+			isa = PBXGroup;
+			children = (
+				782D983F149B13DF00D01361 /* SPPrefaceSceneController.h */,
+				782D9840149B13DF00D01361 /* SPPrefaceSceneController.m */,
+				78019CF9149EC59300E453E2 /* SPPrefaceScene.h */,
+				78019CFA149EC59300E453E2 /* SPPrefaceScene.m */,
+			);
+			name = PrefaceScene;
+			sourceTree = "<group>";
+		};
+		78019CFC149ECA7200E453E2 /* JeffTestScene */ = {
+			isa = PBXGroup;
+			children = (
+				78019CFD149ECAC200E453E2 /* SPJeffTestSceneController.h */,
+				78019CFE149ECAC200E453E2 /* SPJeffTestSceneController.m */,
+				78019D00149ECAD400E453E2 /* SPJeffTestScene.h */,
+				78019D01149ECAD400E453E2 /* SPJeffTestScene.m */,
+			);
+			name = JeffTestScene;
+			sourceTree = "<group>";
+		};
+		78019D03149ECADD00E453E2 /* CocoTestScene */ = {
+			isa = PBXGroup;
+			children = (
+				78019D04149ECB3500E453E2 /* SPCocoTestSceneController.h */,
+				78019D05149ECB3500E453E2 /* SPCocoTestSceneController.m */,
+				78019D07149ECB4700E453E2 /* SPCocoTestScene.h */,
+				78019D08149ECB4700E453E2 /* SPCocoTestScene.m */,
+			);
+			name = CocoTestScene;
+			sourceTree = "<group>";
+		};
+		78019D0A149ECB4D00E453E2 /* GelfordTestScene */ = {
+			isa = PBXGroup;
+			children = (
+				78019D0E149ECBC400E453E2 /* SPGelfordTestSceneController.h */,
+				78019D0F149ECBC400E453E2 /* SPGelfordTestSceneController.m */,
+				78019D11149ECBD900E453E2 /* SPGelfordTestScene.h */,
+				78019D12149ECBD900E453E2 /* SPGelfordTestScene.m */,
+			);
+			name = GelfordTestScene;
+			sourceTree = "<group>";
+		};
+		78019D14149ECBE500E453E2 /* SettingScene */ = {
+			isa = PBXGroup;
+			children = (
+				782D983C149B139400D01361 /* SPSettingSceneController.h */,
+				782D983D149B139400D01361 /* SPSettingSceneController.m */,
+				78019D15149ECC4F00E453E2 /* SPSettingScene.h */,
+				78019D16149ECC4F00E453E2 /* SPSettingScene.m */,
+			);
+			name = SettingScene;
+			sourceTree = "<group>";
+		};
+		78019D18149ECCCB00E453E2 /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				782D9843149B1A4A00D01361 /* SPGameSceneController.h */,
+				782D9844149B1A4A00D01361 /* SPGameSceneController.m */,
+				78019D21149ECEC200E453E2 /* SPGameScene.h */,
+				78019D22149ECEC200E453E2 /* SPGameScene.m */,
+			);
+			name = GameScene;
+			sourceTree = "<group>";
+		};
+		78019D19149ECDBC00E453E2 /* ResultTestScene */ = {
+			isa = PBXGroup;
+			children = (
+				782D9846149B1A7600D01361 /* SPResultTestSceneController.h */,
+				782D9847149B1A7600D01361 /* SPResultTestSceneController.m */,
+				78019D1A149ECDE800E453E2 /* SPResultTestScene.h */,
+				78019D1B149ECDE800E453E2 /* SPResultTestScene.m */,
+			);
+			name = ResultTestScene;
+			sourceTree = "<group>";
+		};
+		78019D1D149ECDF400E453E2 /* GameEndScene */ = {
+			isa = PBXGroup;
+			children = (
+				782D9849149B1ABF00D01361 /* SPGameEndSceneController.h */,
+				782D984A149B1ABF00D01361 /* SPGameEndSceneController.m */,
+				78019D1E149ECE1700E453E2 /* SPGameEndScene.h */,
+				78019D1F149ECE1700E453E2 /* SPGameEndScene.m */,
+			);
+			name = GameEndScene;
+			sourceTree = "<group>";
+		};
+		782D9837149B10D000D01361 /* SceneController */ = {
+			isa = PBXGroup;
+			children = (
+				78019CFC149ECA7200E453E2 /* JeffTestScene */,
+				78019D03149ECADD00E453E2 /* CocoTestScene */,
+				78019D0A149ECB4D00E453E2 /* GelfordTestScene */,
+				782D984C149B1ADA00D01361 /* SPBasicSceneController.h */,
+				782D984D149B1ADA00D01361 /* SPBasicSceneController.m */,
+				782D984F149B1BBD00D01361 /* SPBasicScene.h */,
+				782D9850149B1BBE00D01361 /* SPBasicScene.m */,
+				782D9842149B13F100D01361 /* GameSceneController */,
+			);
+			name = SceneController;
+			sourceTree = "<group>";
+		};
+		782D9842149B13F100D01361 /* GameSceneController */ = {
+			isa = PBXGroup;
+			children = (
+				78019D1D149ECDF400E453E2 /* GameEndScene */,
+				78019D19149ECDBC00E453E2 /* ResultTestScene */,
+				78019D18149ECCCB00E453E2 /* GameScene */,
+				78019CF8149EC55900E453E2 /* PrefaceScene */,
+				78019CF3149E89F700E453E2 /* MainScene */,
+				78019D14149ECBE500E453E2 /* SettingScene */,
+			);
+			name = GameSceneController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -939,6 +1128,26 @@
 				1FA6C83E148FAEAB001CDAD2 /* RootViewController.m in Sources */,
 				1FA6C841148FAEAB001CDAD2 /* HelloWorldLayer.m in Sources */,
 				1F5C63401494AC56000CA620 /* SimpleNLProcessor.m in Sources */,
+				782D983B149B136A00D01361 /* SPMainSceneController.m in Sources */,
+				782D983E149B139400D01361 /* SPSettingSceneController.m in Sources */,
+				782D9841149B13DF00D01361 /* SPPrefaceSceneController.m in Sources */,
+				782D9845149B1A4A00D01361 /* SPGameSceneController.m in Sources */,
+				782D9848149B1A7600D01361 /* SPResultTestSceneController.m in Sources */,
+				782D984B149B1ABF00D01361 /* SPGameEndSceneController.m in Sources */,
+				782D984E149B1ADA00D01361 /* SPBasicSceneController.m in Sources */,
+				782D9851149B1BBE00D01361 /* SPBasicScene.m in Sources */,
+				78019CF7149E8A3D00E453E2 /* SPMainScene.m in Sources */,
+				78019CFB149EC59300E453E2 /* SPPrefaceScene.m in Sources */,
+				78019CFF149ECAC200E453E2 /* SPJeffTestSceneController.m in Sources */,
+				78019D02149ECAD400E453E2 /* SPJeffTestScene.m in Sources */,
+				78019D06149ECB3500E453E2 /* SPCocoTestSceneController.m in Sources */,
+				78019D09149ECB4700E453E2 /* SPCocoTestScene.m in Sources */,
+				78019D10149ECBC400E453E2 /* SPGelfordTestSceneController.m in Sources */,
+				78019D13149ECBD900E453E2 /* SPGelfordTestScene.m in Sources */,
+				78019D17149ECC4F00E453E2 /* SPSettingScene.m in Sources */,
+				78019D1C149ECDE800E453E2 /* SPResultTestScene.m in Sources */,
+				78019D20149ECE1700E453E2 /* SPGameEndScene.m in Sources */,
+				78019D23149ECEC200E453E2 /* SPGameScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
