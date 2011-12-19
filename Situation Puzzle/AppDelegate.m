@@ -110,7 +110,8 @@
 	[self removeStartupFlicker];
 	
 	// Run the intro Scene
-	[[CCDirector sharedDirector] runWithScene: [HelloWorldLayer scene]];
+	//[[CCDirector sharedDirector] runWithScene: [HelloWorldLayer scene]];
+    [[NSNotificationCenter defaultCenter] postNotificationName:RUN_FIRST_MAIN_GAME_SCENE object:nil];
 }
 
 

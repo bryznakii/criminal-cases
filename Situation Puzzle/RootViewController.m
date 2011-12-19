@@ -11,22 +11,28 @@
 // If you want to support iAd, use this class as the controller of your iAd
 //
 
-#import "cocos2d.h"
-
 #import "RootViewController.h"
-#import "GameConfig.h"
 
 @implementation RootViewController
+@synthesize mainSceneController = mainSceneController_;
+@synthesize prefaceSceneController = prefaceSceneController_;
+@synthesize jeffTestSceneController = jeffTestSceneController_;
+@synthesize cocoTestSceneController = cocoTestSceneController_;
+@synthesize gelfordTestSceneController = gelfordTestSceneController_;
 
-/*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
  - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
+        self.mainSceneController = [[[SPMainSceneController alloc] init] autorelease];
+        self.prefaceSceneController = [[[SPPrefaceSceneController alloc] init] autorelease];
+        self.jeffTestSceneController = [[[SPJeffTestSceneController alloc] init] autorelease];
+        self.cocoTestSceneController = [[[SPCocoTestSceneController alloc] init] autorelease];
+        self.gelfordTestSceneController = [[[SPGelfordTestSceneController alloc] init] autorelease];
 	// Custom initialization
 	}
 	return self;
  }
- */
+ 
 
 /*
  // Implement loadView to create a view hierarchy programmatically, without using a nib.
@@ -37,6 +43,7 @@
 /*
  // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
  - (void)viewDidLoad {
+
 	[super viewDidLoad];
  }
  */
@@ -145,6 +152,7 @@
 
 
 - (void)dealloc {
+    self.mainSceneController = nil;
     [super dealloc];
 }
 
