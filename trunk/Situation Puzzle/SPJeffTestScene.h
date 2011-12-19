@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 #import "SPBasicScene.h"
 @interface SPJeffTestScene : SPBasicScene
+{
+    UITextField *userInput_;
+}
 
 @end
+
+
